@@ -79,6 +79,7 @@ Skill Survival
 	ReplaceActor = "Medikit","BandagedMedikitSpawner"
 	ReplaceActor = "64Berserk","BerserkerSyringeSpawner"
 	Name = "Survival!"
+	ACSReturn = 6
 	textcolor = Gray
 	mustconfirm = "Monster abilities = +25% health (player manual healing)."
 }
@@ -93,6 +94,7 @@ Skill SurvivalRealism
 	ReplaceActor = "Medikit","BandagedMedikitSpawner"
 	ReplaceActor = "64Berserk","BerserkerSyringeSpawner"
 	FastMonsters
+	ACSReturn = 7
 	Name = "Survival! (realism)"
 	textcolor = Gray
 	mustconfirm = "Monster abilities = Fast Projectiles, -70% health and inflict x5 damage (player manual healing)"

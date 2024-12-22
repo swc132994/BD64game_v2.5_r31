@@ -1,3 +1,203 @@
+#libdefine HUDTIC 0.03
+#libdefine HUD_STAYTIME_FOREVER (-1)
+
+#libdefine HUD_BLENDSTYLE_NORMAL 0
+#libdefine HUD_BLENDSTYLE_ADDITIVE 1
+
+#libdefine HUD_ALIGN_CENTER 0
+#libdefine HUD_ALIGN_LEFT 1
+#libdefine HUD_ALIGN_RIGHT 2
+#libdefine HUD_ALIGN_TOP 1
+#libdefine HUD_ALIGN_BOTTOM 2
+
+#libdefine HUD_PROJECTION_AUTO 0
+#libdefine HUD_PROJECTION_3D 1
+#libdefine HUD_PROJECTION_YSHEARING 2
+
+int ACSUtils_Ints[55] = {
+	240.0, // CursorY
+	false, // R_TextColorIsString
+	480.0, // CursorAreaHeight
+	CR_UNTRANSLATED, // R_TextColor
+	-1, // CachedPort
+	0.0, // R_AppearTime
+	HUD_STAYTIME_FOREVER, // R_StayTime
+	1.0, // CursorSpeedY
+	false, // CursorWrapX
+	0.0, // R3D_CameraY
+	false, // R_TextWordWrap
+	0.0, // R3D_CameraPitch
+	0.0, // R3D_2DOffsetX
+	HUD_ALIGN_CENTER, // R_AlignX
+	0, // R_RotatedX
+	0.0, // R3D_Y
+	320.0, // CursorPrevX
+	HUD_PROJECTION_AUTO, // R3D_ProjectionMode
+	0.0, // R_Y
+	0.0, // R3D_CameraX
+	0.0, // R3D_Z
+	0.0, // R3D_2DOffsetY
+	0, // R_RotatedZ
+	640.0, // R_BaseWidth
+	true, // R_ShowIn3DView
+	1.0, // R_Alpha
+	false, // R_CenterText
+	HUDMSG_LAYER_OVERHUD, // R_Layer
+	0.0, // R3D_CameraAngle
+	0, // CursorMotionX
+	1.0, // R_IScaleX
+	1.0, // CursorSpeedX
+	0.0, // R3D_X
+	false, // R_LogMessage
+	true, // R_ShowOnOverlayAutomap
+	320.0, // CursorX
+	0, // HudStateStackTop
+	false, // R_ShowToEveryone
+	0, // CursorMotionY
+	HUD_BLENDSTYLE_NORMAL, // R_BlendStyle
+	0.0, // R3D_CameraZ
+	0.0, // R_X
+	true, // R3D_AutoDistanceScale
+	false, // CursorWrapY
+	0, // R_RotatedY
+	false, // R_ExcludeStatusBar
+	480.0, // R_BaseHeight
+	240.0, // CursorPrevY
+	0.0, // R_DisappearTime
+	HUD_ALIGN_CENTER, // R_AlignY
+	true, // R_ShowOnFullAutomap
+	1.0, // R_IScaleY
+	false, // R_Is3DPoint
+	640.0, // CursorAreaWidth
+	false, // R_TextTypeOn
+};
+
+str ACSUtils_Strings[1] = {
+	"SMALLFONT", // R_TextFont
+};
+
+#define ACSUTILS_ERROR_PROGRAM 0
+#define ACSUTILS_ERROR_MAPPING 1
+#define ACSUTILS_ERROR_LIMIT 2
+
+function void ACSUtils_ProgramError(str message)
+{
+	ACSUtils_ErrorHandler(ACSUTILS_ERROR_PROGRAM, message);
+}
+
+function void ACSUtils_LimitError(str message)
+{
+	ACSUtils_ErrorHandler(ACSUTILS_ERROR_LIMIT, message);
+}
+
+function void ACSUtils_ErrorHandler(int type, str message)
+{
+	str text = "";
+	if (IsServer() != IsClient())
+	{
+		if (IsServer())
+			text = "[\cgserverside\c-] ";
+		else
+			text = "[\cdclientside\c-] ";
+	}
+	
+	text = StrParam(s:text, d:Timer(), s:" ACSUtils error: ", s:message);
+	if (!IsClient())
+		Log(s:text);
+
+	if (GetCVar("acsutils_noerrors"))
+		return;
+
+	printbold(s:text);
+}
+
+#libdefine PORT_ZDOOM 1
+#libdefine PORT_GZDOOM 2
+#libdefine PORT_ZANDRONUM 3
+
+
+
+// Port identification methods copied from ACS-X
+function int IdentifySourcePort(void)
+{
+	if (ACSUtils_Ints[4] != -1)
+		return ACSUtils_Ints[4];
+
+	if (GetPlayerAccountName(0) != 0)
+	{
+		// GetPlayerAccountName returns a string (possibly empty) in Zandronum
+		// but 0 in GZDoom.
+		ACSUtils_Ints[4] = PORT_ZANDRONUM;
+		return ACSUtils_Ints[4];
+	}
+	
+	int tid = UniqueTid();
+	if (SpawnForced("DynamicLight", 0, 0, 0, tid))
+	{
+		// DynamicLight is a built-in actor in GZDoom.
+		Thing_Remove(tid);
+		ACSUtils_Ints[4] = PORT_GZDOOM;
+		return ACSUtils_Ints[4];
+	}
+	
+	ACSUtils_Ints[4] = PORT_ZDOOM;
+	return ACSUtils_Ints[4];
+}
+
+function str GetPortName(void)
+{
+	int port = IdentifySourcePort();
+	switch (port)
+	{
+	case PORT_ZDOOM:
+		return "ZDoom";
+	case PORT_GZDOOM:
+		return "GZDoom";
+	case PORT_ZANDRONUM:
+		return "Zandronum";	
+	}
+
+	return StrParam(s:"IdentifySourcePort() returned ", d:port);
+}
+
+function bool IsZandronum(void)
+{
+	return IdentifySourcePort() == PORT_ZANDRONUM;
+}
+
+function bool IsGZDoom(void)
+{
+	int port = IdentifySourcePort();
+	return port == PORT_GZDOOM || port == PORT_ZANDRONUM;
+}
+
+function bool IsServer(void)
+{
+	if (ConsolePlayerNumber() < 0)
+		return true;
+		
+	// Needs to be done like this to avoid crashing the script in ZDoom.
+	if (IsZandronum())
+		return !IsNetworkGame();
+	
+	return true;
+}
+
+function bool IsClient(void)
+{
+	return ConsolePlayerNumber() >= 0;
+}
+
+function bool IsServerOnly(void)
+{
+	return IsServer() && !IsClient();
+}
+
+function bool IsClientOnly(void)
+{
+	return IsClient() && !IsServer();
+}
+
 function void SetInventory(str item, int amount)
 {
 	int diff = amount - CheckInventory(item);
