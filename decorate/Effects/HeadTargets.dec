@@ -11,13 +11,15 @@ damagefactor "Head",0.0
 damagefactor "SSG",1.0
 damagefactor "ExplosiveImpact",0.0
 damagefactor "Bullet",1.5
+MONSTER
+-COUNTKILL
+-SOLID
 +NOGRAVITY
 +SHOOTABLE
 +NOTELEPORT
 +NODAMAGETHRUST
 +NOTARGET
 +THRUACTORS
-+NOCLIP
 +NOBLOODDECALS
 +SERVERSIDEONLY
 	States
