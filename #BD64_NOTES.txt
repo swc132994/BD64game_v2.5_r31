@@ -85,337 +85,103 @@ WPNPOWER3			9907	164
 WPNPOWER4			9908
 WPNPOWER5			9909
 
-CREDITS v2.666 (here for now until I find a better place)
---------------
+Monster spawn list
+------------------
+//Zombies
+64ZombieMan
+64ShotgunGuy
+64SSGGuy
+64ChaingunGuy
+64ZombieMarine
+64PlasmaGuy
+64BFGGuy
+64HuskZombie
+64Carrion
 
-Original Brutal Doom 64 mod by Sergeant Mark IV
 
-Weapons:
-Kicks - animation by IDDQD_1337 (originally from BDv22 by Dox778 (all sprites))
-SMG - IDDQD_1337 (Animation) & Super Piter (sprites). New sprites update (04/05/23) - Midway, Doom Piter, Sgt Mark IV, I'M.
-Gauss Cannon - IDDQD_1337(animation), I'M(scope and cell sprites), BigStronk(decorate), Kokus270(muzzle flashes), VriskaSerket & CaptainJ (sprites), reload sound from Dox778's BD fork
-Tactical Rocket Launcher - IDDQD_1337 (animation) & I'M (sprites)
-Tactical Chainsaw - IDDQD_1337 (animation)
-Tactical Pistol - IDDQD_1337 (animation, inspired from Dox 778) & I'M (sprites), Croteam (SS3 Pistol Reload sounds)
-Alt Lasergun - IDDQD_1337 (animation)
-Plasma Rifle - IDDQD_1337 (animation), Kokus370 & Craneo (Muzzleflash edit)
-Rifle - IDDQD_1337 (animation, reload and inspection animations from Dox 778). Edited by BigStronk & Katherinecode
-SSG - animations by IDDQD_1337 (first select animation and single shell reload inspired from Dox 778) 
-Tactical Shotgun Alt attack - IDDQD_1337 (animation) & I'M (sprites). Smoother alt fire animation by Doomer Blazkowicz.
-Laser Mine (unused) - Sprite rework by Craneo, Animations extra sprites and decorate by IDDQD_1337. Sounds from Brutal Hellfest by Gni. Orginally created by Capt. J and Ezequiel-TM's tripwire lasermine
-Proxy Mine (Tactical & Modern) - CaptJ and Apocalyptic Studios, edited by Craneo and IDDQD_1337.
-Chaingun (tactical & Modern) - Doomer Blazkowicz (sprite rework), Kokus270 (muzzle flash), IDDQD_1337 (Animation, inspired from Dox 778), taken from Sgt Mark IV's BD Chaingun.
-Unmaker (tactical/modern) edits - D64 Frankensprites and sounds by DoomerBlazcowicz. Muzzle flashes by BigStronk. Animations by IDDQD_1337. Tactical Unmaker ready state continuous looping sound (Immorpher)
-BFG9000 Alt Attack - Sprite Edit: Gothic, D3athStalker - Idea Base: Chronoseth, BFG from Doom press release beta - Sounds by - D3athStalker, New Sprites by - I'M
+//Imps
+64DoomImp
+NightmareImp
+64Wraith
+64SoulHarvester
 
-New weapon kicking and slide kicking animations by IDDQD_1337 (from Dox 778's insparation)
 
-New Flashlight/torch pickup by IDDQD and Craneo (Sprites)
+//Demons/spectres
+64Demon
+64Spectre
+64NightmareSpectre
+64AcidDemon
+64Butcher
 
-Player/Doomguy 64 crouch sprites:
-	Credits to TommyGalano5/TG5 for his classic DoomGuy crouch sprites and to Midway for the normal Doom 64 player sprites
-	D64 Frankensprites by Craneo
 
-Monsters:
-//Mancubus bone and cybernetic gib by kaviarmackan
+//Hell nobles
+64HellKnight
+64BaronOfHell
+64Knightmare
+64Belphegor
 
-//Archnotron & NightCrawler flipped XDeath and XDeath Gun sprites by kaviarmackan
 
-//64Thing - Craneo(D64 sprites), swc132994(decorate) based on the Mimic by StopSignal, sounds from Duke Nukem 3D by 3D Realms
+//Cacodemons
+64Cacodemon
+NightmareCacodemon
+64ClassicCacodemon(classic style)
+NightmareClassicCacodemon(classic style)
+64Fallen
 
-//64 Revenant - DrPyspy (sprites)
 
-//64 Archvile - DrPyspy (sprites)
+//Pain Elementals
+64PainElemental
+64AgonyElemental
 
-//Hellhound Alt - I'M (sprites)
 
-//Hellhound GEC - Gerardo194 (sprites)
+//Arachnotron
+64Arachnotron
+64Nightcrawler
+64Impaler
 
-//Bruiser a.k.a Duke of Hell - Gerardo194 (sprites), XDeath sprites by kaviarmackan
 
-//Knightmare a.k.a. DreadKnight - Dr Doctor (Original sprites) Craneo (Rework)
+//Mancubus
+64Fatso
+64Bruiser
 
-//Eradicator a.k.a unmaker mastermind - Craneo (sprite rework), Midway, 3DRealms, Immorpher, Sgt_Mark_IV, DrPyspy
+//Revenants
+64Revenant
+64Pestilence
 
-//64Chaingunner - Craneo (reworked sprites), Midway, DrDoctor, Immorpher, Footman, Atomic Frog, Vader, Xim
 
-//64Acid Demon sounds from REALM667 - SLIME WORM by Captain Toenail
+//Lost Souls
+64LostSoul
+64Stalker
+64ForgottenOne
 
-//64Spider Mastermind - Craneo (sprite rework), Midway, 3DRealms, Immorpher, Sgt_Mark_IV, DrPyspy
 
-//64BFGZombie - Sprites: Id Software, Midway, DrDoctor, Immorpher, Footman, Atomic Frog, Vader, Xim, Korp, ItsNatureToDie, neoworm, Craneo. Sounds: Immorpher
+//Archviles
+64Archvile
+64Hellstorm
+64FleshWizard
 
-//64Belphegor - Midway, NMN, DrDoctor (sprites), Craneo (tweaks), kaviarmackan (sounds)
-
-//64Wraith - Vader, Captain Toenail, Midway, Id Software, Gregor Punchatz, Craneo (D64 style sprites)
 
-//64WaffenSS - Sounds from Return to Castle Wolfenstein, uploaded by Labtec Speakers to The Sounds Resource.
-
-//64Nightmare Elemental - Sprites by Styd051, Decorate by Craneo.
-
-//Classic Style Cacodemons - Original "HD classic Caco" taken from Thief666's Doom 8x sprite project, credits to Charles Heathman & Thief666
-	Recolour, downscale, death sprites, alt palette and a few extra tweaks by Craneo
-	paletted by Immorpher
-
-//64FleshWizard by Craneo
-	Code: Melvin (base Flesh Wizard decorate), swc132994 (default BD64 code bits reused), Amuscaria (Diabolist projectile decorate)
-	Sprites: Freedoom (Flesh Wizard base), Monolith (Blood Zombie), Craneo (Flesh Wizard 64 conversion), HAUNT folder sprites taken from LCA DUST's Bloody Frandle
-	Sounds: 64FWSITx, 64FWDTHx (Dead Space), 64FWACTx (Doom 3), 64FWPAIx (Dying Light), 64FWTELx (System Shock 2)
-	Extra Deaths: Edited by Craneo and based on sprites by David G
-
-//64Husk by Craneo
-	Sprite Credits: Amuscaria, DrDoctor, Midway
-	Code Credits: HorrorMovieRei, swc132994, Sgt_Mark_IV (most likely), Lagi (zombie group spawn code)
-	Sounds Credits: Id Software, Immorpher
-	D64 Frankensprite by Craneo
-
-//64Forgotton One by Craneo
-	Sprite Credits: Midway, DrDoctor, DrPyspy, Craneo
-	Sound Credits: Midway, HorrorMovieRei
-	Code Credits: swc132994, Sgt_Mark_IV
-
-//64Pestilence
-	Submitted: DBJ87
-	Decorate: DBJ87, MagicWazard
-	GLDefs: DBJ87, MagicWazard
-	Sounds: Kalisto Entertainment, id Software, IMX, Raven Software
-	Projectile Sprites: id Software, Raven Software, IMX, DBJ87, MagicWazard
-	Monster Sprites: DrPyspy
-	Edited for BD64 by Craneo
-
-//64Butcher by Craneo
-	Code: Bouncy, Graf Zahl, Ganbare-Lucifer, heavily edited for BD64 by Craneo
-	Sounds: Ganbare-Lucifer
-	Sprites: id Software, Captain J, aeea7835, Eriance, ItsNatureToDie, Midway Entertainment, Kinsie, D64 edit by Craneo
-	
-//64Hellstorm by Craneo
-	Decorate: Maelstrom & Craneo edits
-	GLDEFs: Dreadopp
-	Sounds: Id Software, Monolith Games
-	Sprites: Immorpher, Craneo, Atomic Frog, Witan Entertainment BV, MagicMaker
-
-//64Zombies burning death improvement - Midway, DrDoctor, Monolith, sprite rework by Craneo
-
-//64Fallen
-	Sprites: Amuscaria, DrDoctor, DrPyspy, Monolith Productions
-	D64 Frankensprite by Craneo
-	Sounds: Dead Space, Doom Eternal
-	new sounds taken from Project Malice
-
-	Old credits bits:
-	Code: Amuscaria
-	GLDefs: Ghastly Dragon
-	old sounds, Brightmaps and ZScript version not used.
-
-//64Infernal
-	Code: Maelstrom, Sgt_Mark_IV
-	Sprites: Ittrav (monster sprites), Atomic Frog (Seeker Missile sprites), DrDoctor, DrPyspy, Craneo (Fireball sprites)
-	Sounds: SEGA, Cooper B. Chance, downbeataura
-
-//64Carrion
-	Hellforged zombie used as a base by Amuscaria
-	D64 Frankensprite by Craneo
-	Sounds taken from Project Malice, originary from Dying Light
-
-//64Keen Replacement
-	MK4 HANGED SCORPION FOR D64 CREDITS:
-	Midway (everything)
-	TEPA6ANT (MK4 Scorpion ragdoll for Gmod)
-	Ultimecia (MK4 fatality text rip)
-	LordRaptor (ripping MK4 sounds)
-	D64 Frankensprite by Craneo.
-
-//64 Scripted marine varients by Craneo
-
-//64Plasma zombie (colonel)
-	Sprite Credits: Midway, Footman/SteelPH, PresidentPeople, Craneo
-	Sound Credits: Kalisto Entertainment, Id Software
-	D64 Frankensprite by Craneo
-
-//64Trite
-	Original Credits:
-		Decorate: Ghastly_dragon
-		Sprites: Monolith, Id Software
-		Sounds: Id Software
-
-	Sprite Edits :	Midway, DrDoctor, DrPyspy, Capstone Games, Dunkelschwamm, Captain Toenail
-	D64 Frankensprite by Craneo
-
-//64Impaler
-	Scorpion Tail by: LilWhiteMouse
-	Sprites by: Sheriffsheep132
-	Sprite edits by Craneo
-	Decorate by swc132994
-
-//64Soul Harvester
-	CODE: Vader, Tormentor667
-	GLDefs (unused atm): Keksdose, Ghstly Dragon
-	SPRITES: Amuscaria, DrPyspy (monster), Midway, AtomicFrog (projectile), unsplash.com, Captain Toenail (death soul)
-	SOUNDS: Dead Space, Id Software, The Blue Savior/Project Malice
-
-//Anomaly events
-Poltergeist original credits:
-----------------------------
-Submitted: David Raven
-Decorate: David Raven
-GLDefs: David Raven, the Skulltag Team
-Sounds: freesounds.org, Midway, id
-Sprites: id Software
-Sprite Edit: Captain Toenail
-Idea Base: David Raven
-
-Baphomet Eye original credits:
------------------------------
-Decorate: Osiris, Espi, Supersonix07
-GLDEFs: Ghastly Dragon
-Sounds: Id Software, Raven Software, Monolith
-Sprites: Id Software, Raven Software
-Idea Base: Doom floating eye decoration
-
-Pain and Death sounds taken from the Bloodskull monster, credits:
-Sounds: 3DRealms, Rogue Entertainment
-Sight and Active sounds taken from the Deep One monster, credits:
-Sounds: Shadowman (Acclaim Entertainment)
-
-Hell's Rose original code and sprites credits: 3DRealms, Neoworm
-
-Demon Tree sounds credits: 3DRealms, FreeRadical Design, Eriance
-
-Squire sight sounds credits:  Id Software, Woolie Wool
-
-Wall break sounds taken from "Destructible Fantasy Props" by whirledtsar, sounds originally made by Raven Software.
-
-Hangman original credits:
-------------------------
-Code: Captain Toenail, Ghastly (ZScript conversion)
-GLDefs: Captain Toenail
-Sounds: Xatrix, Id Software
-Sprites: Captain Toenail
-
-Decorate: Mor'ladim
-Sounds: Fate
-Sprites: id Software, Raven Software, Mor'ladim
-Sprite Edit: Mor'ladim
-
-buzzing noises from Quake 1
-
-Edits by (Craneo)
-
-//ITEMS
-//Manual Healing Kit
-	MDKI- and M2KI- originally by GhostKillahZero, FireHusky and PillowBlaster, animation parts taken from IDDQD_1337
-	WMEDP0 originally by TypicalSF
-	sounds from L4D2 and Doom 3
-	Special thanks to Empyre for coding help
-	edited by Craneo
-
-//DoomerBlazkowicz Edits to:
-Fists - sprites & sounds
-Pistol - sprites & decorate
-Shotgun - alt attack decorate, sprites & sounds
-SSG - sounds
-SMG - decorate (speed adjustment)
-Rifle - decorate (speed adjustment)
-Chaingun - modern/tactical sprites and decorate changes
-BFG - pickup sprite
-Rocket Launcher - pickup sprite
-Key pickup sprites
-Backpack pickup sprites
-
-Doom64 Alpha Item, power-up and gore prop sprites by Midway
-
-Add-ons:
-BD64HUD_Ashton (Paladin-julio (ModDB) Plus Craneo edits to icons)
-D64PSX_HQ_SFX (SFX Marine (Nate))
-BD64_NathanSFXPack (SFX Marine (Nate))
-BD64v2.666_Reflective_Blood_[GZDoom] (IDDQD_1337)
-BD64v2.666_Alt_Weapon_Sounds (BigStronk)
-BD64v2.666_Beefy_SFX (BigStronk)
-BD64v2.666_SkiesHD - Slightly edited version of "High Quality Skies for BD 64" by Marklegg (https://www.moddb.com/mods/brutal-doom-64/addons/high-quality-skies-for-brutal-doom-64)
-BD64v2.666_Rework_D4_Weapons_&_Voxels - Reworked version of "DOOM4 Voxels and Weapons For BD64-V3.3" by KEENO7 (https://www.moddb.com/mods/brutal-doom-64/addons/doom4-voxels-and-weapons-for-bd64v3)
-BD64v2.666 Xtra goodies pack - Created and maintained by Craneo. Various sprite animations by IDDQD_1337
-PSX64_RandomMusic - Random Doom 64 Music Selector by Unmaker23 (Discord)
-
-Props and misc:
-Triangular automap arrow method taken from "PSX Doom TC"
-Impaled Doom 64 guys - Craneo
-64 Floating skull - Craneo (extra sprites), DrDoctor (original)
-64 EvilEye and Evileye2 - Craneo
-64 Candelabra - DrDoctor
-64 TwitchGibs - Nevander's D64 Retribution
-64 HeadCandles - Craneo
-64 Stalagmites - DrDoctor
-64 Flies - 3D Realms, Captain Toenail, Craneo
-SMK3 smoke sprites from BD Platinum
-Nukage recolour - Craneo
-New blood splats sprites by I'M
-New screen blood splats by IDDQD_1337
-New Bullet decals from SMK4SIMPLEDECALS.wad by Sgt Mark IV
-Screen effects - Added by IDDQD_1337, Original creator Mechanical-Sanity
-Mugshot - Id Software (Doom 2 Slayer model for Doom Eternal), Stefano (porting said model to Garry's Mod), Craneo (Rework)
-Map08 Final Outpost - self destruct sequence sound (Team 17, Alien Breed 2) 
-
-Widescreen HUD bar for display size 10 (normal) by Unmaker23
-
-Items:
-Alt cell packs - DrDoctor (sprites)
-Soul ammo & Demon essence - Craneo (sprites)	EDIT: Added Hitodama sprites by DoomerBlazcowicz
-
-Maps:
-Converting all Hexen format maps to UDMF - IDDQD_1337
-New Map28 Ultimate Absolution by Styd051
-D64 puzzles - added by IDDQD_1337 from Nevander's D64 Retribution
-D64 opening title - added by Styd051 from Nevander's D64 Retribution
-BD64 rework on reckoning maps (maps 1-3) by Styd051
-BD64 import of D64 Absolution TC features by Styd051
-
-Compatible_Retribution_Maps - Imported Nevander's D64 Retribution retribution maps but with gameplay features removed.
-
-Blood, nukage, slime and water liquid textures - Guest6777
-
-Music:
-Map tracks: 20th Anniversary Edition of Doom 64 soundtrack plus bonus tracks - Aubrey Hodges
-Title screen theme by Andrew Hulshult
-New intermission music tracks added by Sraigius:
-INTERA = Aubrey Hodges - Doom 64 Stats Screen (anniversary version)
-INTERB = Davester2296 - DOOM 64 - Stats Screen - 20th Anniversary Version
-INTERC = Neurological - Between hell and earth (more of Neurological's music, as well as this album can be downloaded in http://www.neuro-lab.net/ )
-INTERD = Davester2296 - DOOM 64 | D64D2 - Stats Screen - End Of Level
-INTERE = DexiaZ fantom - Doom 64 OST Remix - Intermission/Stats Screen Remastered
-INTERF = Aubrey Hodges - Doom 64 Stats Screen (original version)
-INTERG = Aubrey Hodges - Doom 64 Stats Screen (anniversary version) (excerpt from about 3:15)
-PLOTA and PLOTB = ElguitarTom - DooM 64 - Conclusion - Metal Remix
-PLOTC = Aubrey Hodges = Doom 64 - Finale
-D_ALGMAN = Lustmord - Intro intermission, Amalgamated Man
-
-v2.5 credits upto R30:
-Xamp for reworking the SSG firing and reloading
-Styd051 for reworking the imp shotgun, super shotgun and BFG deaths. (BD 64 TC Absolution Remake)
-Iddqd_Idkfa_Idclip for Stamina drain fixes from run button press. (BD 64 Absolute Nightmare)
-Onox792 for the completed nightmare monsters.
-Gifty (ZDoom) for the smooth animations used for the Archvile
-YukiHerz for HD Laser gun sprites.
-Immorpher for the Tchernobog style Revenant melee sprites.
-Jimmy (ZDoom forum) for Doom 64 style fonts.
-The music track for the intro map is Algamated Man by Lustmord used in the unloved mod final boss map. (NOW INTRO INTERMISSION in v2.666)
-Jakinsbob for beta testing the no stamina class (Modern).
-idkfa3215 for the original work on New Deaths for BD64 from which NDBD64 Enhanced is based. (NOW FULLY INTEGRATED in v2.666)
-doomguy199333 for beta testing New Deaths for BD64 Enhanced addon.
-OldCactusCN for working the smoother pistol, shotgun, SSG, unmaker muzzle flash, new assault rifle, new pentagram sprites as well as new demon/spectre sounds.
-Dexiaz (Doomworld forum) for new archvile sounds
-
-
-Sgt Mark's v2 credits:
-Based on:
-Doom 64 Absolution by Samuel "Kaiser" Villareal
-GZDoom 64 By Nightshade
-Doom64 Monster Replacer by Kaal979
-
-Additional Sprites:
-Cage - Extra animations for weapons (shotgun, super shotgun reloading, etc.)
-Scalliano and Dr Doctor - Alpha Unmaker (a.k.a Laser gun)
-Monolith, Raven Software, 3D Realms - Several Sprites
-Skjalg L. Sellæg - Rotations for Revenant's sprites (Tchernobog Revenant BD64v2)
-Leonard - Chaingunguy sprites.(NO LONGER USED in v2.666)
-Footman - Zombie Marine sprites.
-Mike12 - Assault Rifle sprites.
+//Hellhounds
+64HellHound
+64HellHoundGEC
+
+
+//Cyberdemons
+64Cyberdemon
+Annihilator64
+
+
+//Spidermastermind
+64SpiderMastermind
+64Eradicator
+
+//Special monsters
+64Thing
+64Trite
+
+//Special Boss monsters
+Motherdemon
+64Infernal
+
+//Doom2 secret monsters
+64WaffenSS
