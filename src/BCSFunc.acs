@@ -1,0 +1,268 @@
+enum : fixed { HUDTIC = 0.03 };
+enum : fixed { HUD_STAYTIME_FOREVER = (fixed)(-1) };
+
+enum : int { HUD_BLENDSTYLE_NORMAL = 0 };
+enum : int { HUD_BLENDSTYLE_ADDITIVE = 1 };
+
+enum : int { HUD_ALIGN_CENTER = 0 };
+enum : int { HUD_ALIGN_LEFT = 1 };
+enum : int { HUD_ALIGN_RIGHT = 2 };
+enum : int { HUD_ALIGN_TOP = 1 };
+enum : int { HUD_ALIGN_BOTTOM = 2 };
+
+enum : int { HUD_PROJECTION_AUTO = 0 };
+enum : int { HUD_PROJECTION_3D = 1 };
+enum : int { HUD_PROJECTION_YSHEARING = 2 };
+
+raw ACSUtils_Ints[55] = {
+	240.0, // CursorY
+	false, // R_TextColorIsString
+	480.0, // CursorAreaHeight
+	CR_UNTRANSLATED, // R_TextColor
+	-1, // CachedPort
+	0.0, // R_AppearTime
+	HUD_STAYTIME_FOREVER, // R_StayTime
+	1.0, // CursorSpeedY
+	false, // CursorWrapX
+	0.0, // R3D_CameraY
+	false, // R_TextWordWrap
+	0.0, // R3D_CameraPitch
+	0.0, // R3D_2DOffsetX
+	HUD_ALIGN_CENTER, // R_AlignX
+	0, // R_RotatedX
+	0.0, // R3D_Y
+	320.0, // CursorPrevX
+	HUD_PROJECTION_AUTO, // R3D_ProjectionMode
+	0.0, // R_Y
+	0.0, // R3D_CameraX
+	0.0, // R3D_Z
+	0.0, // R3D_2DOffsetY
+	0, // R_RotatedZ
+	640.0, // R_BaseWidth
+	true, // R_ShowIn3DView
+	1.0, // R_Alpha
+	false, // R_CenterText
+	HUDMSG_LAYER_OVERHUD, // R_Layer
+	0.0, // R3D_CameraAngle
+	0, // CursorMotionX
+	1.0, // R_IScaleX
+	1.0, // CursorSpeedX
+	0.0, // R3D_X
+	false, // R_LogMessage
+	true, // R_ShowOnOverlayAutomap
+	320.0, // CursorX
+	0, // HudStateStackTop
+	false, // R_ShowToEveryone
+	0, // CursorMotionY
+	HUD_BLENDSTYLE_NORMAL, // R_BlendStyle
+	0.0, // R3D_CameraZ
+	0.0, // R_X
+	true, // R3D_AutoDistanceScale
+	false, // CursorWrapY
+	0, // R_RotatedY
+	false, // R_ExcludeStatusBar
+	480.0, // R_BaseHeight
+	240.0, // CursorPrevY
+	0.0, // R_DisappearTime
+	HUD_ALIGN_CENTER, // R_AlignY
+	true, // R_ShowOnFullAutomap
+	1.0, // R_IScaleY
+	false, // R_Is3DPoint
+	640.0, // CursorAreaWidth
+	false, // R_TextTypeOn
+};
+
+str ACSUtils_Strings[1] = {
+	"SMALLFONT", // R_TextFont
+};
+
+private enum : int { ACSUTILS_ERROR_PROGRAM = 0 };
+private enum : int { ACSUTILS_ERROR_MAPPING = 1 };
+private enum : int { ACSUTILS_ERROR_LIMIT = 2 };
+
+function void ACSUtils_ProgramError(str message)
+{
+	ACSUtils_ErrorHandler(ACSUTILS_ERROR_PROGRAM, message);
+}
+
+function void ACSUtils_LimitError(str message)
+{
+	ACSUtils_ErrorHandler(ACSUTILS_ERROR_LIMIT, message);
+}
+
+function void ACSUtils_ErrorHandler(int type, str message)
+{
+	str text = "";
+	if (IsServer() != IsClient())
+	{
+		if (IsServer())
+			text = "[\cgserverside\c-] ";
+		else
+			text = "[\cdclientside\c-] ";
+	}
+	
+	text = StrParam(s:text, d:Timer(), s:" ACSUtils error: ", s:message);
+	if (!IsClient())
+		Log(s:text);
+
+	if (GetCVar("acsutils_noerrors"))
+		return;
+
+	printbold(s:text);
+}
+enum : int { INT_MAX = 0x7fffffff };
+enum : int { INT_MIN = 0x80000000 };
+enum : fixed { FIXED_MAX = (fixed)(0x7fffffff) };
+enum : fixed { FIXED_MIN = (fixed)(0x80000000) };
+enum : int { USHORT_MAX = 65535 };
+enum : int { SHORT_MAX = 32767 };
+enum : int { SHORT_MIN = -32768 };
+enum : int { UBYTE_MAX = 255 };
+enum : int { SBYTE_MAX = 127 };
+enum : int { SBYTE_MIN = -128 };
+
+enum : fixed { PI = 3.1415926535897932384626433832795 };
+enum : fixed { TAU = 6.2831853071795864769252867665590 };
+enum : fixed { SQRT_2 = 1.41421356237 };
+enum : fixed { MATH_E = 2.7182818284590452353602874713526624977572470937 };
+enum : fixed { LOG2_E = 1.44269504089 };
+enum : fixed { LOG2_10 = 3.32192809489 };
+
+// Generic functions.
+
+function raw min(raw a, raw b)
+{
+	if (a < b)
+		return a;
+	return b;
+}
+
+function raw max(raw a, raw b)
+{
+	if (a > b)
+		return a;
+	return b;
+}
+
+function int clamp(raw x, raw a, raw b)
+{
+	if (x > b)
+		return b;
+	if (x < a)
+		return a;
+	return x;
+}	
+
+function int sgn(raw x)
+{
+	if (x > 0)
+		return 1;
+	if (x < 0)
+		return -1;
+	return 0;
+}
+
+function int abs(raw x)
+{
+	if (x > 0)
+		return x;
+	return -x;
+}
+
+enum : int { PORT_ZDOOM = 1 };
+enum : int { PORT_GZDOOM = 2 };
+enum : int { PORT_ZANDRONUM = 3 };
+
+
+
+// Port identification methods copied from ACS-X
+function int IdentifySourcePort(void)
+{
+	if (ACSUtils_Ints[4] != -1)
+		return ACSUtils_Ints[4];
+
+	if (GetPlayerAccountName(0) != 0)
+	{
+		// GetPlayerAccountName returns a string (possibly empty) in Zandronum
+		// but 0 in GZDoom.
+		ACSUtils_Ints[4] = PORT_ZANDRONUM;
+		return ACSUtils_Ints[4];
+	}
+	
+	int tid = UniqueTid();
+	if (SpawnForced("DynamicLight", 0, 0, 0, tid))
+	{
+		// DynamicLight is a built-in actor in GZDoom.
+		Thing_Remove(tid);
+		ACSUtils_Ints[4] = PORT_GZDOOM;
+		return ACSUtils_Ints[4];
+	}
+	
+	ACSUtils_Ints[4] = PORT_ZDOOM;
+	return ACSUtils_Ints[4];
+}
+
+function str GetPortName(void)
+{
+	int port = IdentifySourcePort();
+	switch (port)
+	{
+	case PORT_ZDOOM:
+		return "ZDoom";
+	case PORT_GZDOOM:
+		return "GZDoom";
+	case PORT_ZANDRONUM:
+		return "Zandronum";
+	}
+
+	return StrParam(s:"IdentifySourcePort() returned ", d:port);
+}
+
+function bool IsZandronum(void)
+{
+	return IdentifySourcePort() == PORT_ZANDRONUM;
+}
+
+function bool IsGZDoom(void)
+{
+	int port = IdentifySourcePort();
+	return port == PORT_GZDOOM || port == PORT_ZANDRONUM;
+}
+
+function bool IsServer(void)
+{
+	if (ConsolePlayerNumber() < 0)
+		return true;
+		
+	// Needs to be done like this to avoid crashing the script in ZDoom.
+	if (IsZandronum())
+		return !IsNetworkGame();
+	
+	return true;
+}
+
+function bool IsClient(void)
+{
+	return ConsolePlayerNumber() >= 0;
+}
+
+function bool IsServerOnly(void)
+{
+	return IsServer() && !IsClient();
+}
+
+function bool IsClientOnly(void)
+{
+	return IsClient() && !IsServer();
+}
+
+function void SetInventory(str item, int amount)
+{
+	int diff = amount - CheckInventory(item);
+	if (diff > 0)
+		GiveInventory(item, diff);
+	else if (diff < 0)
+		TakeInventory(item, -diff);
+}
+
+enum : fixed {PLAYER_VIEWHEIGHT = 50}; //BD64 default player height
