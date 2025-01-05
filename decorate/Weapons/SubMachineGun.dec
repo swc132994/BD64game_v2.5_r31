@@ -203,9 +203,12 @@ Tag "Sub-machine gun"
 		SMGA RSTU 1 A_WeaponReady
 		SMGA V 2 A_WeaponReady
 		TNT1 A 0 A_PlaySound("SMGBACK",CHAN_WEAPON)
-		SMGA WXYYZ 1 A_WeaponReady
-		TNT1 A 0 A_PlaySound("SMGFORW",CHAN_WEAPON)
-		SMGA ZYYXW 1 A_WeaponReady
+		SMGA WX 1 A_WeaponReady
+		SMGA X 2 Offset(0,33) A_WeaponReady
+		SMGA X 1 Offset(0,35) A_WeaponReady
+		SMGA X 1 Offset(0,35) A_PlaySound("SMGFORW",CHAN_WEAPON)
+		SMGA X 2 Offset(0,33) A_WeaponReady
+		SMGA XW 1 A_WeaponReady
 		SMGA V 2 A_WeaponReady
 		SMGA UTSR 1 A_WeaponReady
 		Goto Ready2
@@ -440,10 +443,13 @@ Tag "Sub-machine gun"
 		TNT1 A 0 A_TakeInventory("SMGBolt",1)
 		SMGA RSTU 1
 		SMGA V 2
-		TNT1 A 0 A_PlaySound("SMGBACK",CHAN_WEAPON)
-		SMGA WXYYZ 1
-		TNT1 A 0 A_PlaySound("SMGFORW",CHAN_WEAPON)
-		SMGA ZYYXW 1
+		SMGA W 1 A_PlaySound("SMGBACK",CHAN_WEAPON)
+		SMGA X 1
+		SMGA X 2 Offset(0,33)
+		SMGA X 1 Offset(0,34)
+		SMGA X 1 Offset(0,34) A_PlaySound("SMGFORW",CHAN_WEAPON)
+		SMGA X 2 Offset(0,33)
+		SMGA XW 1 A_WeaponReady(WRF_NOFIRE)
 		SMGA V 2
 		SMGA UTSR 1
 		Goto Ready2
