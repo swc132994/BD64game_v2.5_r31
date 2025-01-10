@@ -1610,6 +1610,7 @@ ACTOR XDeathNImpArm1 : XDeathZombieArm1
 Scale 0.75
 alpha 0.6
 renderstyle Translucent
+Decal "BrutalBloodSplatBLUE"
 	States
 	{
 	Spawn:
@@ -1630,6 +1631,7 @@ ACTOR XDeathNImpLeg1 : XDeathZombieArm1
 Scale 0.75
 alpha 0.6
 renderstyle Translucent
+Decal "BrutalBloodSplatBLUE"
 	States
 	{
 	Spawn:
@@ -1764,6 +1766,7 @@ Renderstyle Translucent
 ACTOR AcidDemonArm : XDeathZombieArm1
 {
 Translation "16:31=%[0,0,0]:[0,1,0]","176:191=%[0,0,0]:[0,1,0]","32:47=%[0,0,0]:[0,1,0]"
+Decal "BrutalBloodSplatGREEN"
 	States
 	{
 	Spawn:
@@ -1782,6 +1785,7 @@ Translation "16:31=%[0,0,0]:[0,1,0]","176:191=%[0,0,0]:[0,1,0]","32:47=%[0,0,0]:
 ACTOR AcidDemonLeg : XDeathZombieArm1
 {
 Translation "16:31=%[0,0,0]:[0,1,0]","176:191=%[0,0,0]:[0,1,0]","32:47=%[0,0,0]:[0,1,0]"
+Decal "BrutalBloodSplatGREEN"
 	States
 	{
 	Spawn:
@@ -1851,7 +1855,7 @@ Scale 1
 //Bruiser
 ACTOR XDeathBruiserCannonGreen : XDeathZombieArm1
 {
-//Translation "16:31=%[0,0,0]:[0,1,0]","176:191=%[0,0,0]:[0,1,0]","32:47=%[0,0,0]:[0,1,0]"
+Decal "BrutalBloodSplatGREEN"
 	States
 	{
 	Spawn:
@@ -2014,6 +2018,7 @@ ACTOR XDeathCacodemonGib5 : XDeathZombieArm1
 //NIGHTMARE CACO
 ACTOR XDeathNCacodemonGib1 : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatBLUE"
 ALPHA 0.5
 renderstyle translucent
 	States
@@ -2031,6 +2036,7 @@ renderstyle translucent
 
 ACTOR XDeathNCacodemonGib2 : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatBLUE"
 ALPHA 0.5
 renderstyle translucent
 	States
@@ -2048,6 +2054,7 @@ renderstyle translucent
 
 ACTOR XDeathNCacodemonGib3 : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatBLUE"
 ALPHA 0.5
 renderstyle translucent
 	States
@@ -2065,6 +2072,7 @@ renderstyle translucent
 
 ACTOR XDeathNCacodemonGib4 : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatBLUE"
 ALPHA 0.5
 renderstyle translucent
 	States
@@ -2082,6 +2090,7 @@ renderstyle translucent
 
 ACTOR XDeathNCacodemonGib5 : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatBLUE"
 ALPHA 0.5
 renderstyle translucent
 	States
@@ -2100,6 +2109,7 @@ renderstyle translucent
 //HELLKNIGHT
 ACTOR XDeathHKArm : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatGREEN"
 	States
 	{
 	Spawn:
@@ -2118,6 +2128,7 @@ ACTOR XDeathHKArm : XDeathZombieArm1
 //BARON
 ACTOR XDeathBaronArm : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatGREEN"
 	States
 	{
 	Spawn:
@@ -2138,6 +2149,7 @@ ACTOR KnightmareArm : XDeathZombieArm1
 {
 Alpha 0.6
 RenderStyle Translucent
+Decal "BrutalBloodSplatGREEN"
 	States
 	{
 	Spawn:
@@ -2318,6 +2330,7 @@ Scale 0.7
 //NIGHT CRAWLER
 ACTOR XDeathBlueSpiderHead : XDeathSpiderHead
 {
+Decal "BrutalBloodSplatBLUE"
 	States
 	{
 	Spawn:
@@ -2467,6 +2480,7 @@ ACTOR HoundGEC_Head : XDeathZombieArm1
 //Belphegor
 ACTOR BelphegorLeg : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatGREEN"
 	States
 	{
 	Spawn:
@@ -2484,6 +2498,7 @@ ACTOR BelphegorLeg : XDeathZombieArm1
 
 ACTOR BelphegorArm : XDeathHKArm
 {
+Decal "BrutalBloodSplatGREEN"
 	States
 	{
 	Spawn:
@@ -2803,7 +2818,7 @@ ACTOR LostSoulPiece5 : LostSoulPiece1
 //Classic Cacodemon
 ACTOR XDeathClassicCacodemonGib3 : XDeathZombieArm1
 {
-ALPHA 0.5
+Decal "BrutalBloodSplatBLUE"
 	States
 	{
 	Spawn:
@@ -2819,6 +2834,7 @@ ALPHA 0.5
 
 ACTOR XDeathClassicCacodemonGib4 : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatBLUE"
 States
 	{
 	Spawn:
@@ -2834,6 +2850,7 @@ States
 
 ACTOR XDeathClassicCacodemonGib5 : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatBLUE"
 	States
 	{
 	Spawn:
@@ -2852,6 +2869,7 @@ ACTOR XDeathNClassicCacodemonGib4 : XDeathZombieArm1
 {
 ALPHA 0.5
 renderstyle translucent
+Decal "BrutalBloodSplatBLUE"
 	States
 	{
 	Spawn:
@@ -2869,6 +2887,7 @@ ACTOR XDeathNClassicCacodemonGib5 : XDeathZombieArm1
 {
 ALPHA 0.5
 renderstyle translucent
+Decal "BrutalBloodSplatBLUE"
 	States
 	{
 	Spawn:
@@ -2889,6 +2908,7 @@ Translation "112:127=%[0,0,0]:[0.35,0,0.7]"
 Scale 0.64
 ALPHA 0.5
 renderstyle translucent
+Decal "BrutalBloodSplatBLUE"
 	States
 	{
 	Spawn:
@@ -2910,6 +2930,7 @@ Translation "112:127=%[0,0,0]:[0.35,0,0.7]"
 Scale 0.64
 ALPHA 0.5
 renderstyle translucent
+Decal "BrutalBloodSplatBLUE"
 	States
 	{
 	Spawn:
@@ -2929,7 +2950,8 @@ renderstyle translucent
 ACTOR XDeathPestilenceArm1 : XDeathZombieArm1
 {
 Scale 0.68
-States
+Decal "BrutalBloodSplatGREEN"
+	States
 	{
 	Spawn:
 		PTG1 A 0 NoDelay A_Jump(128,2)
@@ -2946,6 +2968,7 @@ States
 
 ACTOR XDeathPestilenceLegL : XDeathZombieArm1
 {
+Decal "BrutalBloodSplatGREEN"
 Scale 0.68
 	States
 	{
@@ -2963,6 +2986,7 @@ Scale 0.68
 ACTOR XDeathPestilenceLegR : XDeathZombieArm1
 {
 Scale 0.68
+Decal "BrutalBloodSplatGREEN"
 	States
 	{
 	Spawn:
@@ -2979,6 +3003,7 @@ Scale 0.68
 ACTOR XDeathPestilenceLauncher : XDeathZombieArm1
 {
 Scale 0.68
+Decal "BrutalBloodSplatGREEN"
 	States
 	{
 	Spawn:
