@@ -11,7 +11,7 @@ Inventory.forbiddento "64DoomPlayer"
 VisibleToPlayerClass "Tactical64DoomPlayer","Tactical64DoomPlayer_P","Modern"
 +INVENTORY.RESTRICTABSOLUTELY
 +WEAPON.AMMO_CHECKBOTH
-+WEAPON.NOAUTOAIM
+//+WEAPON.NOAUTOAIM//those who are lacey
 +WEAPON.NOALERT
 +WEAPON.NOAUTOFIRE
 	States
