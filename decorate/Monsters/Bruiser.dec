@@ -236,27 +236,27 @@ Decal "Scorch"
 
 Actor FlamethrowerFireParticlesGreen : FlamethrowerFireParticles
 {
-Translation "0:255=%[0,0,0]:[0,1,0]"
+Translation "0:255=%[0,0,0]:[0.00,1.00,0.50]"
 }
 
 Actor ExplosionParticleHeavyGreen : ExplosionParticleHeavy
 {
-Translation "0:255=%[0,0,0]:[0,1,0]"
+Translation "0:255=%[0,0,0]:[0.00,1.00,0.50]"
 }
 
 Actor TinyBurningPieceGreen : TinyBurningPiece
 {
-Translation "0:255=%[0,0,0]:[0,1,0]"
+Translation "0:255=%[0,0,0]:[0.00,1.00,0.50]"
 }
 
 Actor TinyBurningPieceGreen2 : TinyBurningPiece2
 {
-Translation "0:255=%[0,0,0]:[0,1,0]"
+Translation "0:255=%[0,0,0]:[0.00,1.00,0.50]"
 }
 
 Actor BruiserFlame
 {
-Translation "0:255=%[0,0,0]:[0,1,0]"
+Translation "0:255=%[0,0,0]:[0.00,1.00,0.50]"
 Scale 0.3
 Damage 2
 Speed 35

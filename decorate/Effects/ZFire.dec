@@ -1278,8 +1278,8 @@ DamageType "Fire"
 ACTOR TinyBurningPiece : BarrelExplosionSmokeColumn
 {
 Scale 1.1
-Alpha 0.9
-RenderStyle Add
+Alpha 0.55
+RenderStyle Translucent
 DamageType "Fire"
 -CLIENTSIDEONLY
 	States
@@ -1319,12 +1319,12 @@ Scale 0.7
 
 Actor TinyBurningPieceBlue : TinyBurningPiece
 {
-Translation "0:255=%[0,0,0]:[0,0,1]"
+Translation "0:255=%[0,0,0]:[0.30,0.76,1.00]"
 }
 
 Actor TinyBurningPieceBlue2 : TinyBurningPiece2
 {
-Translation "0:255=%[0,0,0]:[0,0,1]"
+Translation "0:255=%[0,0,0]:[0.30,0.76,1.00]"
 }
 
 ACTOR 64ExplosionFireBase : FlameTrails
