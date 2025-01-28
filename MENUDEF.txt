@@ -1,4 +1,9 @@
-LISTMENU "MainMenu"
+AddOptionMenu "OptionsMenu"		//GZDOOM/Q-ZANDRONUM ONLY FEATURE
+{
+	Submenu "BD64 Options","BD64MENU"
+}
+
+/*LISTMENU "MainMenu"
 {
 	IfGame(Doom,Chex)
 	{
@@ -67,7 +72,7 @@ ListMenu "PlayerclassMenu"
 	Position 50, 45
 	PlayerDisplay 140, 35, "FF 00 00", "FF 00 00"
 	// The rest of this menu will be set up based on the actual player definitions.
-}
+}*/
 
 OptionMenu "BD64Menu"
 {
@@ -91,26 +96,26 @@ OptionMenu "BD64Menu"
 	StaticText "Adds new monsters and weapons with balanced settings,",1
 	StaticText "how the creator plays his own mod",1
 	StaticText " "
-	StaticText "To set all monster/weapon/item spawners to random, press this",1
+	StaticText "To set all monster spawners to random, press this",1
 	SafeCommand "Spawner Randomiser", "pukename RandomCvars"
 	StaticText " "
 	StaticText "-------------------------------- Options -------------------------------------",1
 	StaticText " "
-	Submenu "Other Item/Weapon Options",		"BrutalDoom64Item/WeaponOptions"
+//	Submenu "Other Item/Weapon Options",		"BrutalDoom64Item/WeaponOptions"
 	Submenu "Other Monster Options",			"BrutalDoom64OptionsOtherMonster"
 	Submenu "Performance & Misc. Options",		"BrutalDoom64OptionsPerformance"
 	Submenu "Map Options",						"BD64MapOptions"
 	StaticText " "
 	StaticText "-------------------------------- Gameplay -------------------------------------",1
 	StaticText " "
-	Submenu "Item/Weapon Spawner Options",		"BrutalDoom64OptionsItem/WeaponSpawner"	
+//	Submenu "Item/Weapon Spawner Options",		"BrutalDoom64OptionsItem/WeaponSpawner"	
 	Submenu "Monster Spawner Options",			"BrutalDoom64OptionsMonsterSpawner"	
 	StaticText " "
 	StaticText ""
 	Submenu 	"Engine (GZD, Zand) Shortcuts",		"GZDShortcuts"
 }
 
-OptionMenu "BrutalDoom64OptionsItem/WeaponSpawner"
+/*OptionMenu "BrutalDoom64OptionsItem/WeaponSpawner"
 {
 	Title "Item/Weapon Spawner Options"
 	StaticText "Some changes are not initialised automatically", 1
@@ -136,9 +141,9 @@ OptionMenu "BrutalDoom64OptionsItem/WeaponSpawner"
 	Option "Chaingun Spawner =","Chaingun_Spawner_Cvar","Chaingun_Spawner_Value"
 		StaticText "Chaingun by Default",1
 		StaticText ""
-}
+}*/
 
-OptionMenu "BrutalDoom64Item/WeaponOptions"
+/*OptionMenu "BrutalDoom64Item/WeaponOptions"
 {
 	Title "Other Item/Weapon Options"
 	StaticText "Some changes are not initialised automatically", 1
@@ -179,7 +184,7 @@ OptionMenu "BrutalDoom64Item/WeaponOptions"
 		StaticText "-------------------------------------- Other -----------------------------------",1
 		StaticText " "
 	Option "Start with Flashlight/Torch =","FlashlightStartCvar","YesOrNo"
-}
+}*/
 
 OptionMenu "BrutalDoom64OptionsMonsterSpawner"
 {
@@ -312,7 +317,7 @@ OptionMenu "BrutalDoom64OptionsPerformance"
 		StaticText ""
 		StaticText "------------------------------------ HUD ------------------------------------",1
 		StaticText ""
-	Option "Set HUD Style =","HUDSwitchCvar","HUDValue"
+//	Option "Set HUD Style =","HUDSwitchCvar","HUDValue"
 		StaticText ""
 	Option "Enable HUD Screen Effects =", "bd64_ScreenFX", "ScreenTypes"
 		StaticText "Enables screen effects on HUD, such as blood splashes and bullet holes."
@@ -324,7 +329,7 @@ OptionMenu "BrutalDoom64OptionsPerformance"
 		StaticText ""
 		StaticText "---------------------------------- Sounds ----------------------------------",1
 		StaticText ""
-	Option "Enable Footstep Sounds =","FootStepCheckCvar","YesOrNoFalse"
+//	Option "Enable Footstep Sounds =","FootStepCheckCvar","YesOrNoFalse"
 }
 
 OptionMenu "BD64MapOptions"

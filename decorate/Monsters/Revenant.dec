@@ -12,7 +12,7 @@ PainChance "Kick",255
 PainChance "SuperKick",255
 DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 Tag "Revenant"
 HitObituary "$FO_OB_UNDEADHIT"
 Obituary "$FO_OB_UNDEAD"

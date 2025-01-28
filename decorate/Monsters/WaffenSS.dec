@@ -15,8 +15,8 @@ ActiveSound "Waffen/Active"
 DeathSound "Waffen/Death"
 PainSound "Waffen/Pain"
 SeeSound "Waffen/See"
-DropItem "MP40Spawner"
-DropItem "SOULSPAWNER"
+DropItem "Clip"
+//DropItem "SOULSPAWNER"
 +NOINFIGHTING
 +MISSILEMORE
 	States

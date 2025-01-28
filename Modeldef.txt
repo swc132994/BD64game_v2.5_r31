@@ -1058,7 +1058,7 @@ FrameIndex BPDL A 0 0
 }
 
 ////OBJECTS
-Model 64LevitatingPlatform
+/*Model 64LevitatingPlatform
 {
 Path "models"
 rotating
@@ -1069,7 +1069,7 @@ Skin 0 "UnPent.png"
 Scale 50 50 1
 ZOffset 1
 FrameIndex PNTG A 0 0
-}
+}*/
 
 //SPARKS & PROJECTILES
 Model HitSpark
@@ -1194,7 +1194,7 @@ Offset -100 0 0
 FrameIndex ULAZ B 0 0
 }
 
-Model UnmakerLaserIce
+/*Model UnmakerLaserIce
 {
 Path "models"
 Model 0 "heavy.md2"
@@ -1205,9 +1205,9 @@ Offset 145 0 0
 FrameIndex ULAZ A 0 0
 Offset -100 0 0
 FrameIndex ULAZ B 0 0
-}
+}*/
 
-Model UnmakerLaserPierce
+/*Model UnmakerLaserPierce
 {
 Path "models"
 Model 0 "heavy.md2"
@@ -1218,7 +1218,7 @@ Offset 145 0 0
 FrameIndex ULAZ A 0 0
 Offset -100 0 0
 FrameIndex ULAZ B 0 0
-}
+}*/
 
 Model EradicatorLaser
 {

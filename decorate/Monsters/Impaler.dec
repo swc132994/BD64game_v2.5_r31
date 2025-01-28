@@ -23,7 +23,7 @@ PainChance "SuperKick",255
 DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Plasma",0.7
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 BloodType "Brutal_BloodGreen"
 MONSTER
 +MOVEWITHSECTOR

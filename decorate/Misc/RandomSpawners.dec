@@ -57,7 +57,7 @@ Actor 64GibbedMarineExtraReplacer replaces GibbedMarineExtra
 }
 
 //Weapon replacements
-Actor Dyn_ChaingunReplacer Replaces Chaingun
+/*Actor Dyn_ChaingunReplacer Replaces Chaingun
 {
 Scale 0.82
 	States
@@ -115,10 +115,10 @@ Scale 0.9
 		TNT1 A 1 A_SpawnItemEx("LasergunSpawner",0,0,0,0,0,0,0,SXF_TRANSFERPOINTERS|SXF_TRANSFERSPECIAL|SXF_CLEARCALLERTID,0,tid)
 		Stop
 	}
-}
+}*/
 
 //Item/Powerup replacements
-Actor 64HealthBonusReplacer Replaces HealthBonus
+/*Actor 64HealthBonusReplacer Replaces HealthBonus
 {
 Scale 0.82
 	States
@@ -265,7 +265,7 @@ Scale 0.82
 		TNT1 A 1 A_SpawnItemEx("FlashlightItem",0,0,0,0,0,0,0,SXF_TRANSFERPOINTERS|SXF_TRANSFERSPECIAL|SXF_CLEARCALLERTID,0,tid)
 		Stop
 	}
-}
+}*/
 
 //Random monster spawners
 Actor ZMarine_Random Replaces ZombieMan

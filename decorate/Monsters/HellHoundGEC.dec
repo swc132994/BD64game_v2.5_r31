@@ -25,7 +25,7 @@ Tag "Hell Hound"
 Obituary "%o was scorched by a Hell Hound."
 Hitobituary "%o is now dog food."
 Species "Dog"
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 +NOBLOODDECALS
 +NEVERFAST
 	States

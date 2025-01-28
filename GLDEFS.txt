@@ -49,14 +49,14 @@ object 64Rocket
 	frame MISLF {light ROCKET_X5}
 }
 
-object TacticalRocket
+/*object TacticalRocket
 {
 	frame MISLB {light ROCKET_X1}
 	frame MISLC {light ROCKET_X2}
 	frame MISLD {light ROCKET_X3}
 	frame MISLE {light ROCKET_X4}
 	frame MISLF {light ROCKET_X5}
-}
+}*/
 
 object CyberRocket
 {
@@ -85,7 +85,7 @@ object 64StickGrenade
 	frame MISLF {light ROCKET_X5}
 }
 
-object 64ThrownActiveProxMine
+/*object 64ThrownActiveProxMine
 {
 	frame MISLB {light ROCKET_X1}
 	frame MISLC {light ROCKET_X2}
@@ -101,7 +101,7 @@ object 64GroundProxMine
 	frame MISLD {light ROCKET_X3}
 	frame MISLE {light ROCKET_X4}
 	frame MISLF {light ROCKET_X5}
-}
+}*/
 
 //Plasma
 flickerlight PLASMA_X1
@@ -155,7 +155,7 @@ object 64PlasmaBall
 	frame PLSEE {light PLASMA_X5}
 }
 
-object PlasmaFlame
+/*object PlasmaFlame
 {
 	frame PLSEA {light PLASMA_X1}
 	frame PLSEG {light PLASMA_X1}
@@ -169,7 +169,7 @@ object PlasmaFlame
 	frame PLSEK {light PLASMA_X4}
 	frame PLSEF {light PLASMA_X5}
 	frame PLSEL {light PLASMA_X5}
-}
+}*/
 
 object 64ArachnotronPlasma
 {
@@ -1998,7 +1998,7 @@ object TeleportationFog
 }
 
 //TORCH-FLASHLIGHT
-object FlashlightProjectile
+/*object FlashlightProjectile
 {
 frame TNT2 {light Flashlight1}
 }
@@ -2032,7 +2032,7 @@ pointlight Flashlight3
 color 0.4 0.4 0.4
 size 72
 offset 0 0 0
-}
+}*/
 
 pointlight LampBasic
 {
@@ -2071,7 +2071,7 @@ offset 0 0 0
 dontlightself 1
 }
 
-flickerlight BETABALL1_X1
+/*flickerlight BETABALL1_X1
 {
 color 0.2 0.8 0.2
 size 40
@@ -2149,7 +2149,7 @@ Frame REDBA {light BETABALL2_X1}
 Frame REDBB {light BETABALL2_X2}
 Frame REDBC {light BETABALL2_X3}
 Frame REDBD {light BETABALL2_X4}
-}
+}*/
 
 //Anomaly Events
 pulselight POLTCANDLE

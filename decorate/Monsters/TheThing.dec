@@ -26,7 +26,7 @@ DamageFactor "Unmaker",0.2
 DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 MeleeRange 80
-DropItem "SoulSpawner"
+//DropItem "SOULSPAWNER"
 BloodType "Brutal_Blood"
 MONSTER
 -COUNTKILL

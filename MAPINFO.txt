@@ -6,11 +6,11 @@ MenuFontColor_Value = "White"	//Colour used for setting values in menu pages
 MenuFontColor_Action = "White"	//Colour used for actions in menu pages
 MenuFontColor_Header = "Gold"	//Colour used for section headers in menu pages
 
-	NoRandomPlayerClass = true
-	playerclasses = "64DoomPlayer","Tactical64DoomPlayer","Tactical64DoomPlayer_P","Modern"
+//	NoRandomPlayerClass = true
+//	playerclasses = "64DoomPlayer","Tactical64DoomPlayer","Tactical64DoomPlayer_P","Modern"
 }
 
-clearskills
+/*clearskills
 
 Skill Baby
 {
@@ -98,7 +98,7 @@ Skill SurvivalRealism
 	Name = "Survival! (realism)"
 	textcolor = Gray
 	mustconfirm = "Monster abilities = Fast Projectiles, -70% health and inflict x5 damage (player manual healing)"
-}
+}*/
 
 
 Intermission Doom2Cast

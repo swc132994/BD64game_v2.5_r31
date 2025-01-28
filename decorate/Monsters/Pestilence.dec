@@ -26,7 +26,7 @@ ActiveSound "Pestilence/active"
 MeleeSound "Pestilence/melee"
 HitObituary "%o died by the Pestilence's poison fists"
 Obituary "%o fell to the Pestilence's chemical warfare"
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 BloodType "Brutal_BloodGreen"
 +NOBLOODDECALS
 +DONTHARMSPECIES

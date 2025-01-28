@@ -12,7 +12,7 @@ DamageFactor "Fire",0.5
 DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 HitObituary "%o got too close to a Pain Elemental."
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 +FORCEXYBILLBOARD
 +NOBLOOD
 +NEVERFAST

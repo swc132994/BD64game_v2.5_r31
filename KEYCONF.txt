@@ -1,19 +1,1 @@
-AddKeySection "Brutal Doom 64" BrutalDoomInteractions
-
-AddMenuKey "Kick" "+zoom"
-DefaultBind "Q" "+zoom"
-
-AddMenuKey "Toss Mine" "+user1"
-DefaultBind "G" "+user1"
-
-AddMenuKey "Place Mine" "+user2"
-DefaultBind "M" "+user2"
-
-AddMenuKey "Weapon Special Action" "+user3"
-DefaultBind "V" "+user3"
-
-Alias "Flashlightswitch" "PukeName ToggleFlashlight"
-AddMenuKey "Toggle Flashlight/Torch" "FlashlightSwitch"
-DefaultBind "F" "FlashlightSwitch"
-
 DefaultBind "CAPSLOCK" "toggle cl_run"

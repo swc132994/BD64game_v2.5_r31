@@ -12,7 +12,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 MeleeThreshold 200
 MeleeRange 100
-DropItem "DemonEssenceLargeSpawner"
+//DropItem "DemonEssenceLargeSpawner"
 DropItem "Soulsphere",32
 AttackSound "weapons/gswing"
 Tag "Spider Mastermind"
@@ -186,7 +186,7 @@ DamageFactor "CauseObjectsToSplash",0.0
 AttackSound "weapons/gswing"
 MeleeThreshold 200
 MeleeRange 100
-DropItem "DemonEssenceLargeSpawner"
+//DropItem "DemonEssenceLargeSpawner"
 DropItem "Soulsphere",64
 Obituary "The Eradicator unmade %o."
 HitObituary "%o was crushed underfoot."

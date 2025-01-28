@@ -23,7 +23,7 @@ SeeSound "wizard/See"
 PainSound "wizard/pain"
 DeathSound "wizard/death"
 ActiveSound "wizard/active"
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 Alpha 0.6
 RenderStyle Translucent
 MONSTER

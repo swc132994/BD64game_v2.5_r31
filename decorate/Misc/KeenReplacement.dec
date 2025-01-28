@@ -7,7 +7,7 @@ Tag "Scorpion"
 DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 +NOBLOODDECALS
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 	States
 	{
 	Spawn:

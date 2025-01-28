@@ -15,7 +15,7 @@ PainSound "TheHusk/Pain"
 DeathSound "TheHusk/Death"
 ActiveSound "TheHusk/Active"
 AttackSound "TheHusk/Attack"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 -COUNTKILL
 	states
 	{

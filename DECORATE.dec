@@ -1,9 +1,6 @@
 #INCLUDE "Decorate/Tokens.dec"
 
 //OTHER
-#INCLUDE "Decorate/Misc/Player.dec"
-#INCLUDE "Decorate/Misc/Items.dec"
-#INCLUDE "Decorate/Misc/Flashlight.dec"
 
 //EFFECTS
 #INCLUDE "Decorate/Effects/Blood.dec"
@@ -24,24 +21,6 @@
 #INCLUDE "Decorate/Effects/TerrainSplash.dec"
 
 //WEAPONS & AMMO
-#INCLUDE "Decorate/Weapons/BaseWeapon.dec"
-#INCLUDE "Decorate/Weapons/Fists.dec"
-#INCLUDE "Decorate/Weapons/Chainsaw.dec"
-#INCLUDE "Decorate/Weapons/Pistol.dec"
-#INCLUDE "Decorate/Weapons/SubMachineGun.dec"
-#INCLUDE "Decorate/Weapons/Shotgun.dec"
-#INCLUDE "Decorate/Weapons/SSG.dec"
-#INCLUDE "Decorate/Weapons/Rifle.dec"
-#INCLUDE "Decorate/Weapons/Chaingun.dec"
-#INCLUDE "Decorate/Weapons/RocketLauncher.dec"
-#INCLUDE "Decorate/Weapons/PlasmaRifle.dec"
-#INCLUDE "Decorate/Weapons/BFG.dec"
-#INCLUDE "Decorate/Weapons/Unmaker.dec"
-#INCLUDE "Decorate/Weapons/Lasergun.dec"
-#INCLUDE "Decorate/Weapons/GaussCannon.dec"
-#INCLUDE "Decorate/Weapons/ProxyMine.dec"
-#INCLUDE "Decorate/Weapons/MP40.dec"
-#INCLUDE "Decorate/Misc/SurvivalHealing.dec"
 
 //MONSTERS
 #INCLUDE "Decorate/Monsters/Zombies.dec"
@@ -88,6 +67,5 @@
 //RANDOM SPAWNERS, CAST CALL & DROPABLES
 #INCLUDE "Decorate/Misc/RandomSpawners.dec"
 #INCLUDE "Decorate/Misc/CastCall.dec"
-#INCLUDE "Decorate/Misc/Dropables.dec"
 #INCLUDE "Decorate/Monsters/AnomalyEvents.dec"
 #INCLUDE "Decorate/Misc/KeenReplacement.dec"

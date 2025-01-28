@@ -10,8 +10,8 @@ DeathSound "bfgguy/death"
 ActiveSound "bfgguy/active"
 Tag "BFG Zombie"
 Obituary "%o was illuminated by a BFG blast."
-DropItem "64CellPack"
-DropItem "SOULSPAWNER"
+DropItem "CellPack"
+//DropItem "SOULSPAWNER"
 MeleeRange 120
 +AVOIDMELEE
 	States

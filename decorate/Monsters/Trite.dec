@@ -32,7 +32,7 @@ DamageFactor "SuperKick",1.5
 DamageFactor "Fire",1.5
 DamageFactor "Plasma",1.5
 DamageFactor "BFG",1.5
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 Tag "Trite"
 HitObituary "%o was poisoned by a Trite"
 Species "Trite"

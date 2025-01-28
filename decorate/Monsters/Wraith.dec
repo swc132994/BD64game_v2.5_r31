@@ -27,7 +27,7 @@ PainSound "D3Wraith/Pain"
 DeathSound "D3Wraith/Death"
 ActiveSound "D3Wraith/Active"
 Tag "Wraith"
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 BloodType "Brutal_Blood"
 MONSTER
 +SHADOW

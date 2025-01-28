@@ -12,7 +12,7 @@ PainChance "SuperKick",255
 DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "chainsaw",0.9
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 Tag "Demon"
 Obituary "$FO_OB_DEMONHIT"
 +NOBLOODDECALS
@@ -357,7 +357,7 @@ PainChance "SuperKick",255
 DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "chainsaw",0.9
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 Tag "Spectre"
 HitObituary "$FO_OB_SPECTREHIT"
 +NOBLOODDECALS

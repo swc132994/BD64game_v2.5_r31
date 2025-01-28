@@ -23,7 +23,7 @@ PainSound "harvester/pain"
 DeathSound "harvester/death"
 ActiveSound "harvester/active"
 Obituary "%o was leeched by a Soul Harvester."
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 Tag "Soul Harvester"
 MONSTER
 +FLOORCLIP

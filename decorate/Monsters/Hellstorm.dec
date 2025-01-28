@@ -24,7 +24,7 @@ seesound "tornado/see"
 painsound "tornado/pain"
 deathsound "tornado/death"
 activesound "tornado/active"
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 BloodType "Brutal_BloodBlue"
 Species "Archvile"
 MONSTER

@@ -29,7 +29,7 @@ DamageFactor "Plasma",0.5
 DamageFactor "BFG",0.5
 DamageFactor "Fire",0
 DamageFactor "Ice",1.5
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 MONSTER
 +DONTHARMCLASS
 +NOGRAVITY

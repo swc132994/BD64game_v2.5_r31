@@ -18,9 +18,9 @@ DamageFactor "Head",2.25
 DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
-DropItem "RifleDrop",5
+//DropItem "RifleDrop",5
 DropItem "Clip"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 Obituary "%o was gunned down by a rifle marine."
 +FRIENDLY
 +LOOKALLAROUND
@@ -237,7 +237,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 DropItem "cellpack"
 +FRIENDLY
 +LOOKALLAROUND
@@ -433,7 +433,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 +FRIENDLY
 +LOOKALLAROUND
 +QUICKTORETALIATE
@@ -624,7 +624,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 DropItem "clip"
 +FRIENDLY
 +LOOKALLAROUND
@@ -816,7 +816,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 +FRIENDLY
 +LOOKALLAROUND
 +QUICKTORETALIATE
@@ -995,7 +995,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 +FRIENDLY
 +LOOKALLAROUND
 +QUICKTORETALIATE
@@ -1174,7 +1174,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 DropItem "cell"
 +FRIENDLY
 +LOOKALLAROUND
@@ -1364,7 +1364,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 DropItem "cell"
 +FRIENDLY
 +LOOKALLAROUND
@@ -1553,7 +1553,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 DropItem "rocketammo"
 +FRIENDLY
 +LOOKALLAROUND
@@ -1745,7 +1745,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 DropItem "shell"
 +FRIENDLY
 +LOOKALLAROUND
@@ -1935,7 +1935,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 DropItem "shell"
 +FRIENDLY
 +LOOKALLAROUND
@@ -2128,7 +2128,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 Game Doom
 +FRIENDLY
 +LOOKALLAROUND
@@ -2319,7 +2319,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 Game Doom
 +FRIENDLY
 +LOOKALLAROUND
@@ -2510,7 +2510,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 Game Doom
 +FRIENDLY
 +LOOKALLAROUND
@@ -2702,7 +2702,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "Unmaker",0.1
 Species "Marines"
-DropItem "SOULSPAWNER"
+//DropItem "SOULSPAWNER"
 Game Doom
 +FRIENDLY
 +LOOKALLAROUND

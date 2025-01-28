@@ -12,7 +12,7 @@ PainChance "SuperKick",255
 DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 BloodType "BD64ArachnotronBlood"
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 Tag "Arachnotron"
 Obituary "$FO_OB_BABY"
 +NOBLOODDECALS

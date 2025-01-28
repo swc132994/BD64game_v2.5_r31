@@ -14,7 +14,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 DamageFactor "chainsaw",0.5
 DamageFactor "Head",0.8
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 Tag "Imp"
 HitObituary "$FO_OB_IMPHIT"
 Obituary "$FO_OB_IMP"

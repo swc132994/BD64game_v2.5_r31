@@ -24,7 +24,7 @@ DamageFactor "CauseObjectsToSplash",0.0
 Obituary "%o was dissolved by an acid demon"
 HitObituary "%o was mauled by an acid demon"
 Tag "Acid Demon"
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 BloodType "Brutal_BloodGreen"
 +DONTHARMSPECIES
 +MISSILEMORE
@@ -480,7 +480,7 @@ DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
 Obituary "%o was blown up by a nightcrawler."
 Tag "Nightcrawler"
-DropItem "DemonEssenceSpawner"
+//DropItem "DemonEssenceSpawner"
 BloodType "Brutal_BloodBLUE"
 +DONTHARMSPECIES
 	States

@@ -46,8 +46,8 @@ DamageFactor "Chainsaw",0.65
 DamageFactor "Unmaker",0.2
 Obituary "$FO_OB_ZOMBIE"
 Tag "Pistol Zombie"
-DropItem "SOULSPAWNER"
-DropItem "64Clip"
+//DropItem "SOULSPAWNER"
+DropItem "Clip"
 +DOHARMSPECIES
 +NOBLOODDECALS
 +NEVERFAST
@@ -671,8 +671,8 @@ Speed 6
 GibHealth 15
 Tag "Shotgun Zombie"
 Obituary "$FO_OB_SHOTGUY"
-DropItem "ShotgunDrop"
-DropItem "SOULSPAWNER"
+DropItem "Shotgun"
+//DropItem "SOULSPAWNER"
 	States
 	{
 	Spawn:
@@ -1205,8 +1205,8 @@ Obituary "$FO_OB_STEALTHSHOTGUNGUY"
 Actor 64SSGGuy : 64ShotgunGuy 19110
 {
 //$category "Game/BD64_Monsters
-DropItem "SSGDrop"
-DropItem "SOULSPAWNER"
+DropItem "SuperShotgun"
+//DropItem "SOULSPAWNER"
 Tag "SSG Zombie"
 Obituary "%o was blown apart by an SSG Zombie."
 SpawnID 170
@@ -1756,8 +1756,8 @@ Speed 4
 AttackSound "MGUNFIR"
 Tag "Chaingun Zombie"
 Obituary "$FO_OB_CHAINGUY"
-DropItem "ChaingunDrop"
-DropItem "SOULSPAWNER"
+DropItem "Chaingun"
+//DropItem "SOULSPAWNER"
 	States
 	{
 	Idle:	//placeholder
@@ -2182,8 +2182,8 @@ DamageFactor "Head",2.25
 AttackSound "RIFLE"
 Tag "Marine Zombie"
 Obituary "%o was gunned down by a zombie marine."
-DropItem "RifleDrop"
-DropItem "SOULSPAWNER"
+DropItem "Clip"
+//DropItem "SOULSPAWNER"
 	States
 	{
 	Idle:	//placeholder

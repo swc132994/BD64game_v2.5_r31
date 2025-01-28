@@ -22,7 +22,7 @@ brightmap sprite ALVEA0		{map "brightmaps/ALVEA0_BR.png"}
 
 //ITEMS
 //ARMOUR BONUS
-brightmap sprite BON2B0		{map "brightmaps/BON2B.png"disablefullbright}
+/*brightmap sprite BON2B0		{map "brightmaps/BON2B.png"disablefullbright}
 brightmap sprite BON2C0		{map "brightmaps/BON2B.png"disablefullbright}
 brightmap sprite BON2D0		{map "brightmaps/BON2B.png"disablefullbright}
 brightmap sprite BON2E0		{map "brightmaps/BON2B.png"disablefullbright}
@@ -387,6 +387,7 @@ brightmap sprite UN4GA0		{map "BRIGHTMAPS/Unmaker/UNMBE0_BR.png"disablefullbrigh
 brightmap sprite UN4GB0		{map "BRIGHTMAPS/Unmaker/UN4RB0_BR.png"disablefullbright}	//Green
 brightmap sprite UN4GC0		{map "BRIGHTMAPS/Unmaker/UN4RB0_BR.png"disablefullbright}	//Green
 brightmap sprite UN4GD0		{map "BRIGHTMAPS/Unmaker/UN4RB0_BR.png"disablefullbright}	//Green
+*/
 
 //MONSTERS
 //IMP

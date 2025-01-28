@@ -23,7 +23,7 @@ PainSound "mother/Pain"
 DeathSound "mother/Death"
 ActiveSound "mother/Active"
 Tag "Mother Demon"
-DropItem "DemonEssenceLargeSpawner"
+//DropItem "DemonEssenceLargeSpawner"
 DropItem "Soulsphere",32
 Species "Resurrector"
 MONSTER

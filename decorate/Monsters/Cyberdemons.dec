@@ -11,7 +11,7 @@ PainChance "Kick",200
 PainChance "SuperKick",200
 DamageFactor "CauseWaterSplash",0.0
 DamageFactor "CauseObjectsToSplash",0.0
-DropItem "DemonEssenceLargeSpawner"
+//DropItem "DemonEssenceLargeSpawner"
 DropItem "Soulsphere",32
 Tag "Cyberdemon"
 Obituary "$FO_OB_CYBORG"
@@ -118,7 +118,7 @@ SeeSound "monster/annsit"
 PainSound "cyber/pain"
 DeathSound "monster/anndth"
 ActiveSound "cyber/active"
-DropItem "DemonEssenceLargeSpawner"
+//DropItem "DemonEssenceLargeSpawner"
 DropItem "Soulsphere",32
 +NOBLOODDECALS
 +QUICKTORETALIATE

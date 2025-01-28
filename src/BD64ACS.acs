@@ -2,7 +2,7 @@
 #import "zcommon.bcs"
 //#include "ACSFunc.acs"
 #include "BCSFunc.acs"
-#include "BD64FlashlightACS.acs"
+//#include "BD64FlashlightACS.acs"
 #include "BD64ScreenFXACS.acs"
 #include "BD64Inputs.acs"
 #include "BD64Spawners.acs"
