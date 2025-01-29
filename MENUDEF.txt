@@ -69,6 +69,12 @@ ListMenu "PlayerclassMenu"
 	// The rest of this menu will be set up based on the actual player definitions.
 }
 
+ListMenu "SkillMenu"
+{
+	StaticTextCentered 160, 15, "$MNU_CHOOSESKILL"
+	Position 50, 45
+}
+
 OptionMenu "BD64Menu"
 {
 	Title "BRUTAL DOOM 64 OPTIONS"
